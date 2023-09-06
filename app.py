@@ -1,4 +1,13 @@
-a=int(input("digite primeiro valor "))
-b=int(input("digite primeiro valor "))
+a=float(input("digite primeiro valor "))
+b=float(input("digite primeiro valor "))
+c=input("qual operação")
 
-print(a+b)
+if c=='+':
+    print(a+b)
+
+elif c=='-':
+    print(a-b)
+elif c=='*':
+    print(a*b)    
+elif c=='/':
+    print(a/b)    
